@@ -29,7 +29,7 @@ for i in data:
 
 # print(RollNo)
 
-botToken='5731756178:AAHKmXUH8mSyBcwkzTfZRPWoDvC4pVzi8mU'
+botToken='botToken'
 incomingBot = telebot.TeleBot(botToken, parse_mode=None) 
 
 @incomingBot.message_handler(commands=['start', 'help'])
